@@ -1,0 +1,29 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+                    System.out.println("ente n elements");
+
+        int n=sc.nextInt();
+        int sum=0;
+        int arr[]=new int[n];
+        System.out.println("enter "+n+ " "+"elements");
+
+         for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+             
+        }
+        for(int j=0;j<n;j++){
+        if(arr[j]%2==0){
+            System.out.println("the first even number in an array is");
+            System.out.println(arr[j]);
+                break;
+            }else{
+                System.out.println("in this array it has no even number:");
+                break;
+            }
+
+}
+        
+        }
+}
